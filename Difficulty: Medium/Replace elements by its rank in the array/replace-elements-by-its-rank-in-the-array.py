@@ -10,4 +10,4 @@ class Solution:
             if num not in rank:
                 rank[num]=current_rank
                 current_rank+=1
-        return [rank[num]for num in arr]
+        return [rank[num] for num in arr]
